@@ -15,7 +15,7 @@ begin
 	#10 nrst = 1 ; 
 	forever #10 clk = ~clk ; 
 end   
-/*
+/*         // uvm will do it 
 task assign_transaction(transaction transaction_h ); 
 	en_ctrl_in  = transaction_h.en_ctrl_in  ;
 	set_ctrl_in = transaction_h.set_ctrl_in ;
@@ -24,3 +24,4 @@ task assign_transaction(transaction transaction_h );
 endtask 
 */ 
 endinterface 
+
