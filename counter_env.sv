@@ -2,7 +2,7 @@ class counter_env extends uvm_env ;
 	`uvm_component_utils(env) ;
 
 //
-//
+// here we will declare our objects for example .... the scoreboard and agent  
 //
 
 function new(string name="counter_env",uvm_component parent = null );
