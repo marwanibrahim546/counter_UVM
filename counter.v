@@ -46,12 +46,3 @@ counter_out = d ;
 
 end
 endmodule 
-
-
-
-
-
-
-
-
-

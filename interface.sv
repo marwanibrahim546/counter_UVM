@@ -12,8 +12,8 @@ bit ovf_out ;
 
 initial   
 begin 
-	#10 nrst = 1 ; 
-	forever #10 clk = ~clk ; 
+	#10 nrst_in = 1 ; 
+	forever #10 clk_in = ~clk_in ; 
 end   
 /*         // uvm will do it 
 task assign_transaction(transaction transaction_h ); 
@@ -24,4 +24,3 @@ task assign_transaction(transaction transaction_h );
 endtask 
 */ 
 endinterface 
-

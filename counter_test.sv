@@ -3,7 +3,6 @@ class counter_test extends uvm_component  ;
 	`uvm_component_utils(counter_test) ;     
 
 ////////////////////////////////////////////////////////
-
 function new(string name , uvm_component parent) 
 	super.new(name,parent) ; 
 endfunction 
